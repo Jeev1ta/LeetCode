@@ -7,6 +7,6 @@ def removeElement(nums, val):
     return pos
 
 
-nums = [3,2,2,3]
-val = 3
+nums = map(int, input().split())
+val = int(input())
 print(removeElement(nums,val))
